@@ -1,0 +1,471 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+#main-body {
+  color: white;
+  background-image: url(images/darkwallpaper.jpg);
+  background-position: center;
+}
+#paragr {
+  padding: 6% 2% 4% 2%;
+  color: black;
+  font-size: 3rem;
+  color: white;
+}
+#paragr span {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+.box p {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+}
+.btns {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.btns img {
+  height: 100%;
+  width: auto;
+  padding: 1%;
+  margin: 2% 45%;
+}
+.footer h6 {
+  text-align: center;
+}
+.main {
+  padding: 0%;
+  font-family: "Open Sans", sans-serif;
+  background-image: url(images/darkscreensaver.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+}
+.main-nav {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 300px;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 10px;
+}
+.main-nav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  transition: 0.3s;
+  color: white;
+}
+.main-nav a:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+.main-nav .closebtn {
+  position: absolute;
+  top: 1;
+  right: 30px;
+  font-size: 36px;
+  padding: 0%;
+}
+.openbtn {
+  font-size: 30px;
+  cursor: pointer;
+  padding: 15px;
+  border: none;
+  color: black;
+  background-color: white;
+  margin-left: 7%;
+  margin-top: 5%;
+  margin-bottom: 0%;
+}
+.openbtn:hover {
+  background-color: white;
+}
+.first-page {
+  color: white;
+}
+.home-para {
+  margin: 5% 15%;
+}
+.home-para h3 {
+  font-size: 3rem;
+  font-weight: 50;
+}
+.home-para img {
+  display: none;
+}
+.home-para h1 {
+  font-size: 5rem;
+  margin-top: 2%;
+  width: 100%;
+}
+.skills {
+  margin-top: 8%;
+}
+.aboutMe {
+  margin-bottom: 0%;
+}
+.skills ol {
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+}
+.skills li {
+  margin: 0%;
+  list-style-type: none;
+  text-align: left;
+  padding: 1%;
+  font-size: 1.7rem;
+}
+.home-line {
+  margin-right: 50%;
+  margin-bottom: 5%;
+}
+.home-para p {
+  margin-right: 30%;
+  margin-top: 15%;
+  font-size: 1.2rem;
+}
+
+.myProjects,
+.aboutMe,
+.contactMe {
+  margin: 5% 10%;
+  padding: 5% 5%;
+}
+.contactMe p {
+  margin-top: 1%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.contactMe button a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.contactMe button {
+  padding: 2% 7%;
+  border-radius: 50px;
+  margin-top: 4%;
+}
+.main h2 {
+  font-size: 2.2rem;
+  padding-left: 5%;
+  margin-top: 5%;
+}
+.horiz-line {
+  margin-bottom: 5%;
+  margin-top: 3%;
+  margin-right: 50%;
+  margin-left: 2%;
+}
+.myProjects ul li a {
+  color: white;
+}
+.myProjects ul li {
+  padding: 2% 0%;
+}
+.myProjects p a {
+  color: white;
+  font-size: 1.6rem;
+}
+.email {
+  font-weight: 700;
+  margin: 2% 0%;
+}
+.aboutMe p {
+  padding: 3% 0%;
+  font-size: 1.2rem;
+}
+.contactMe button:hover {
+  background-color: rgb(39, 45, 66);
+  cursor: pointer;
+}
+.footer p {
+  font-size: 0.8rem;
+  text-align: center;
+}
+.footer a {
+  text-decoration: none;
+  color: rgb(162, 221, 162);
+}
+.footer hr {
+  margin: 0% 30%;
+}
+.tutor h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  padding: 3% 0%;
+  text-transform: capitalize;
+}
+.tutor p {
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  padding: 0% 3%;
+  padding-bottom: 3%;
+}
+
+.projet h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  padding: 3% 0%;
+  text-transform: capitalize;
+}
+.reviews {
+  margin: 1% 10%;
+  padding: 1% 5%;
+}
+.reviews p {
+  text-align: left;
+  padding-left: 15%;
+  margin-bottom: 3%;
+}
+.reviews h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  padding: 1% 0%;
+  text-transform: capitalize;
+}
+.aboutMe {
+  margin-bottom: 1%;
+  padding-top: 1%;
+}
+.contactMe {
+  margin-top: 1%;
+}
+.tutor {
+  padding: 2% 0%;
+  margin-bottom: 5%;
+}
+.quote {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 2% 10%;
+  font-family: monospace;
+  text-transform: capitalize;
+}
+
+@media (max-width: 780px) {
+  .main {
+    margin: 0%;
+    width: 100%;
+  }
+  .main-nav {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 200px;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10px;
+  }
+  .main-nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    transition: 0.3s;
+    color: white;
+  }
+
+  .first-page {
+    background-image: url(images/darkscreensaver.jpg);
+    background-repeat: repeat-y;
+    background-size: contain;
+  }
+  .home-para {
+    width: 100%;
+    margin: 0%;
+    padding: 5%;
+  }
+  .home-para img {
+    width: 15%;
+    display: inline;
+    text-align: center;
+    height: auto;
+  }
+  .skills {
+    display: block;
+    color: white;
+  }
+  .skills ol {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+  }
+  .skills li {
+    list-style-type: none;
+    color: white;
+    text-align: left;
+    font-size: 1.2rem;
+  }
+  .skills img {
+    width: 100%;
+    height: auto;
+    color: white;
+  }
+  .home-para p {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .home-para h1 {
+    text-align: center;
+  }
+  .home-para h2,
+  h3,
+  p {
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+  }
+  .home-line {
+    margin: 2% 30%;
+  }
+  .myProjects {
+    margin: 20% 0%;
+    padding: 10% 0%;
+  }
+  .myProjects ul {
+    padding-left: 5%;
+  }
+  .myProjects ul li {
+    padding: 5% 0%;
+  }
+  .myProjects {
+    background-image: url(images/darkscreensaver.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 3%;
+  }
+  .main h2 {
+    font-size: 2.2rem;
+    padding-left: 5%;
+    margin-top: 5%;
+  }
+  .horiz-line {
+    margin-bottom: 10%;
+    margin-top: 3%;
+    margin-right: 50%;
+    margin-left: 2%;
+  }
+  .skill-set {
+    color: white;
+  }
+  .aboutMe {
+    margin: 0%;
+    padding: 5% 2%;
+  }
+  .aboutMe h2 {
+    padding-top: 10%;
+    margin-top: 5%;
+  }
+  .aboutMe p:last-child {
+    padding-bottom: 12%;
+  }
+  .contactMe {
+    margin: 10% 0%;
+    padding: 1%;
+  }
+  .contactMe p {
+    margin-top: 1%;
+  }
+  .email {
+    font-weight: 700;
+    margin: 4% 0%;
+  }
+  .contactMe button a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  .contactMe button {
+    padding: 4% 7%;
+    border-radius: 50px;
+    margin-top: 4%;
+  }
+  .contactMe button:hover {
+    background-color: rgb(39, 45, 66);
+    cursor: pointer;
+  }
+  .footer p {
+    font-size: 0.6rem;
+  }
+  .footer a {
+    text-decoration: none;
+    color: rgb(162, 221, 162);
+  }
+  #paragr {
+    padding: 20% 2% 10% 2%;
+    color: black;
+    font-size: 3rem;
+    color: white;
+  }
+  .btns {
+    padding: 0%;
+  }
+  .btns img {
+    height: 100%;
+    width: auto;
+    padding: 0%;
+    margin: 2% 17%;
+  }
+  .footer hr {
+    margin: 0% 20%;
+  }
+  .tutor h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    padding: 3% 7%;
+    text-transform: capitalize;
+    text-align: left;
+  }
+  .projet h3 {
+    font-size: 1.7rem;
+  }
+  .reviews {
+    margin: 5% 0%;
+    padding: 5% 5%;
+  }
+  .reviews p {
+    text-align: left;
+    padding-left: 15%;
+    margin-bottom: 3%;
+  }
+  .reviews h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+    padding: 1% 0%;
+    text-transform: capitalize;
+    text-align: left;
+  }
+  .tutor {
+    margin: 15% 0%;
+  }
+  .skills {
+    padding: 5%;
+  }
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My personal Portfolio</title>
+    <script>
+        function turnOn() {
+            document.getElementById("page").style.display = "block";
+            document.getElementById("paragr").style.display = "none";
+        }
+        function turnOff() {
+            document.getElementById("page").style.display = "none";
+            document.getElementById("bulb").style.display = "none";
+            document.getElementById("paragr").style.display = "block";
+        }
+        function closeNav() {
+            document.getElementById("main-nav").style.width = "0";
+        }
+        function openNav() {
+            document.getElementById("main-nav").style.width = "200px";
+        }
+    </script>
+</head>
+
+<body id="main-body">
+
+    <div class="box">
+
+        <p id="paragr"><em>Welcome! I'm Femi</em><br><br><span> Turn the switch to see my Portfolio.</span></p>
+        <div id="page" style="display:none;">
+
+            <div class="main">
+
+
+                <div class="first-page">
+
+
+
+
+                    <div class="main-nav" id="main-nav">
+
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+                        <a href="#">Home</a>
+                        <a href="#myProjects">My Projects</a>
+                        <a href="#aboutMe">About Me</a>
+                        <a href="#contactMe">Contact</a>
+                        <a href="#bulb">Switch</a>
+
+                    </div>
+                    <button onclick="openNav()" class="openbtn">&#9776;</button>
+
+
+
+
+                    <div class="home-para">
+
+
+                        <h1 id="main-name">Frontend Developer</h1>
+                        <div class="home-line">
+                            <hr>
+                        </div>
+                        <p><i>I'm a cross between a computer geek, a teacher and an entrepreneur. (i've been all of them
+                                at one time or another.) I'm a positive, enthusiastic and hardworking Web Developer
+                                interested in all things "Tech". I have experience with using HTML, CSS, Bootstrap, and
+                                Javascript. I've built and, as well contributed to different projects and I'm still
+                                expanding my knowledge and skillset.
+                            </i></p>
+                    </div>
+
+
+
+
+                    <div class="myProjects" id="myProjects">
+                        <h2>Projects and Job Experience</h2>
+                        <div class="horiz-line">
+                            <hr>
+                        </div>
+                        <div class="tutor">
+                            <h3>Web development tutor at <a href="#"><strong>Chuuse:</strong></a></h3>
+
+                            <p><i>
+                                    I planned and developed lessons, assignments and projects to assist students in
+                                    connecting technological principles to real world applications.<br>
+                                    My tutoring was developed to facilitate and inspire the student's learning and
+                                    creativity, and i did that by keeping them abreast of the latest development in the
+                                    technological field, and also by providing adequate technical know-how on navigating
+                                    online learning tools.
+                                </i></p>
+                        </div>
+                        <div class="projet">
+                            <h3>Here are some of my projects:</h3>
+                            <ul>
+                                <li>A <a href="https://mi-olak.github.io/solar-company/">Solar Company</a></li>
+                                <li>A <a href="https://mi-olak.github.io/restaurant/">Restaurant</a></li>
+                                <li>A <a href="https://mi-olak.github.io/purpleG/">Fashion page</a></li>
+                                <li>A <a href="https://mi-olak.github.io/four-card-feature/">Four Feature Card</a></li>
+                                <li>A <a href="https://mi-olak.github.io/qrcode/">QRCode</a></li>
+                                <li>An <a href="https://mi-olak.github.io/ntfcard/">NFT card</a></li>
+                            </ul>
+                        </div>
+
+                        <p><a href="https://github.com/mi-olak?tab=repositories" target="_blank">See More...</a></p>
+                    </div>
+
+                    <div class="aboutMe" id="aboutMe">
+                        <h2>About Me</h2>
+                        <div class="horiz-line">
+                            <hr>
+                        </div>
+                        <p>
+                            <!--this is my bio-->
+                            I've always been passionate about computers and programming languages and haven't stopped
+                            working and learning about new technologies. I have used various coding languages to design
+                            and
+                            develop
+                            applications based on my clients' preferences and standards.
+                        </p>
+                        <p> I am proactive, results-oriented
+                            and consider myself a team player. I'm open to any and all
+                            constructive
+                            criticsms, oppurtunities and projects that would make me a better web developer. Other than
+                            sitting in front of my laptop coding, i enjoy watching movies and supporting the best club
+                            in the world; Real Madrid.</p>
+
+                        <div class="skills">
+                            <h2>Skills</h2>
+                            <div class="horiz-line">
+                                <hr>
+                            </div>
+
+                            <ol>
+                                <li>Expertise in Core Javascript</li>
+                                <li>Knowledge of HTML, CSS & Bootstrap</li>
+                                <li>Knowledge of SQL</li>
+                                <li>Skilled in WordPress</li>
+                                <li>Working Knowledge of Git</li>
+                                <li>Communication Skills</li>
+                                <li>I'm willing to learn</li>
+                                <li>I'm currently learning React</li>
+                            </ol>
+                        </div>
+
+                    </div>
+                   
+                    <div class="contactMe" id="contactMe">
+                        <h2>Contact Me</h2>
+                        <div class="horiz-line">
+                            <hr>
+                        </div>
+                        <p>I'm currently available for any web development projects, dashboard designs or landing pages
+                            gigs.
+                            <br> Are you interested in collaborating or want to connect or chat? if so, you can contact
+                            me via
+                            email:
+                        </p>
+                        <p class="at">@</p><br>
+                        <p class="email">femi.olakanmi@yahoo.com</p>
+                        <p>You can also contact me directly on WhatsApp at:</p>
+                        <p><button><a href="https://wa.me/message/VGEZMGQ4KRSQP1">Contact Me</a></button></p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+
+        <img src=".3" alt="" id="bulb">
+
+        <div class="btns">
+            <img src="images/power.png" alt="light on" onclick="turnOn()">
+            <img src="images/off-button.png" alt="light off" onclick="turnOff()">
+        </div>
+        <div class="quote">
+            <q>
+                <!--find a cool quote about work-->
+                <i>I am the master of my fate and the captain of my soul - Invictus.</i>
+            </q>
+        </div>
+
+
+        <div class="footer">
+            <p><a href="#">BACK TO TOP</a></p>
+
+            <hr>
+            <h6>Built from scratch by me: <span> <br>
+                    &lt;&lt; &copy; <abbr title="mi-olak"><a href="https://github.com/mi-olak">Femi
+                            olakanmi</a></abbr>&gt;&gt;
+                </span>
+            </h6>
+
+
+
+
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
